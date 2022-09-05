@@ -1,0 +1,78 @@
+<html lang="id" translate="yes">
+<head>
+	<title>Museum Cakraningrat</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+	</div>
+	<header>
+		<div class="menu">
+			<a href="index.html">
+			<img src="assets/logo-museum2.png" alt="logo-museum"></a>
+			<ul>
+				<li class="active"><a href="index.html">BERANDA</a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="profil.html">PROFIL</a>
+					<div class="dropdown-content">
+							<a class="dropdown-item" href="#sejarah-museum">SEJARAH MUSEUM</a>
+							<a class="dropdown-item" href="#visimisi">VISI MISI</a>
+							<a class="dropdown-item" href="#video-profil">VIDEO PROFIL</a>
+					</div>
+                </li>
+				<li><a href="#katalog-museum">BERITA</a></li>
+				<li><a href="#katalog-museum">KATALOG</a></li>
+				<li><a href="login.php">MASUK</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+			<h2 id="sejarah-museum" class="card">Sejarah</h2>
+			<p>Sejarah berdirinya Museum Cakraningrat didasari pemikiran dan rasa tanggung jawab para sesepuh Kabupaten Bangkalan yaitu R.A. Roeslan Tjakraningrat, R.A. Saleh Adiningrat Surjowinoto, R.P. Abdoe Madjid Surjowinoto, <span id="dots">...</span><span id="more">R.P. Machmoed Sosroadipoetro, R.P. Abdoel  Hamid Notodirejo untuk melestarikan dan merawat benda-benda bernilai sejarah warisan nenek moyang  antara tahun 1950-1954. Kemudian mereka melakukan penghimpunan peralatan, benda-benda dan dokumen-dokumen bekas milik Keraton Bangkalan yang masih ada dan tersisa untuk bisa diurus dan dirawat. Selanjutnya benda-benda tersebut dikumpulkan dan dipindahkan dalam sebuah gudang yang terletak di Komplek Pemakaman Raja-raja Bangkalan “Pasarean Aer Mata” desa Buduran Kecamatan Arosbaya. Pada tahun-tahun itu juga terbentuk sebuah “Yayasan Kona” yang diwakili oleh R.A. Moch. Anwar Tckra Adipoetra Bupati Bangkalan bersama staf-stafnya (1971-1976) bersepakat untuk memindah benda-benda ke Museum Daerah Tingkat Bangkalan. Disamping melakukan upaya penambahan koleksi, dilakukan pula upaya peningkatan kualitas SDM pengelola museum melalui berbagai pelatihan dan pendidikan. Kemudian Bapak Bupati Bangkalan R.KH. Fuad Amin tahun 2007 membangun gedung museum baru yang terletak di jalan soekarno Hatta No. 39 A Bangkalan Bangkalan dan diresmikan tanggal 13 Maret 2008 dengan nama “Musem Cakraningrat”. Nama tersebut digunakan untuk mengenang dan menghormati jasa dan kebesaran Pangeran Cakraningrat.</span></p>
+			<button onclick="myFunction()" id="myBtn">Read more</button>
+			<script>
+			function myFunction() {
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
+			  
+				if (dots.style.display === "none") {
+				  dots.style.display = "inline";
+				  btnText.innerHTML = "Read more"; 
+				  moreText.style.display = "none";
+				} else {
+				  dots.style.display = "none";
+				  btnText.innerHTML = "Read less"; 
+				  moreText.style.display = "inline";
+				}
+			  }
+			  </script>
+			<h2 id="visimisi" class="card">Visi Misi</h2>
+			<section>  
+                <h3>Visi</h3>
+                <p>
+
+				</p>
+                 </section>
+                 <section>
+                <h3>Misi</h3>
+                <ol>
+                    <li>Menyelenggarakan pendidikan dan pembelajaran untuk menghasilkan lulusan yang unggul di bidang pendidikan berbasis Teknologi Informasi (TI) yang berkearifan lokal.
+                    </li>
+                    <li>Menyelenggarakan riset untuk menghasilkan karya akademik yang unggul di bidang pendidikan informatika.
+                    </li>
+                    <li>Menyelenggarakan kegiatan pengabdian masyarakat melalui penerapan IPTEK dalam bidang Pendidikan Informatika yang bermanfaat bagi masyarakat.
+                    </li>
+                </ol>
+            </section>
+			<h2 id="video-profil" class="card">Video Profil</h2>
+			<iframe width="700" height="400" src="https://www.youtube.com/embed/o9W4DLcBGpI?controls=0"></iframe>
+		</div>
+	</main>
+	<footer>
+		<p> &copy; 2022, Museum Cakraningrat</p>
+	</footer>
+    </body>
+</html>
+	
